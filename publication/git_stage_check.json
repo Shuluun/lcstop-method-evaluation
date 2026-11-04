@@ -1,0 +1,10 @@
+{
+  "initial_default_whitespace_check": "FAIL: preserved CRLF bytes treated as trailing whitespace",
+  "remaining_warning_lines": 0,
+  "scope": "packaging only; preserved scientific inputs not reformatted",
+  "cr_at_eol_exit": 0,
+  "scientific_replay": false,
+  "staged_blob_count": 162,
+  "staged_bytes_match_working_files": true,
+  "blob_mismatches": []
+}

@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "local_links_checked": 14,
+  "missing_links": [],
+  "corrected_formula": true,
+  "invalid_attempt_preserved": true,
+  "scope": "new note and artifact consistency only"
+}

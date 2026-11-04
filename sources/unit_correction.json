@@ -1,0 +1,17 @@
+{
+  "source_cache_sha256": "45f07b5d44f78702b760651dffd069c5e57da76aef63768bb9b4fab4e1d62d2d",
+  "raw_stored_unit": "fraction [0,1]",
+  "loss_conversion": "100*(1-accuracy_fraction)",
+  "evidence": "all selected cached values in [0,1]; all restored values exactly on float32 grid, zero old-cache roundtrip error; standard balanced-accuracy definition is [0,1]",
+  "recovery_note": "Accuracy restored as 100-old_loss from preserved cache, not a new raw extraction. Original archive remains authoritative. All recoveries on float32 grid with exact cached roundtrip; no claim of bytewise raw JSON recovery. At most about 1.5e-12 pp worst-case double arithmetic bound if original precision was finer.",
+  "metadata_selection_changed": false,
+  "configuration_or_seed_changed": false,
+  "tau_loss_pp": 20,
+  "epsilon_loss_pp": 1,
+  "alpha": 0.1,
+  "raw_recovered_range": [
+    0.02263495698571205,
+    0.9690707325935364
+  ],
+  "utc": "2026-10-30T22:42:09Z"
+}

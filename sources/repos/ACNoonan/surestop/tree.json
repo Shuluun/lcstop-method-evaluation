@@ -1,0 +1,96 @@
+{
+  "sha": "cd05b98240449dbdf39c07b6176460d6dfebf0a2",
+  "url": "https://api.github.com/repos/ACNoonan/surestop/git/trees/cd05b98240449dbdf39c07b6176460d6dfebf0a2",
+  "files": [
+    {
+      "path": "CITATION.cff",
+      "sha": "f2507b0e4095fa57cc8292172de151bdacac7388",
+      "size": 1260
+    },
+    {
+      "path": "README.md",
+      "sha": "4b437bb8170c72e57f3520bdd67f1fe20ce969da",
+      "size": 7465
+    },
+    {
+      "path": "STRUCTURE.md",
+      "sha": "8a5d14451d07995bfc65cc2ade13a76e259230a0",
+      "size": 2081
+    },
+    {
+      "path": "docs/hyperparameter-prior.md",
+      "sha": "46d67030140ec0b04542b2c58a043c6fd7232342",
+      "size": 3768
+    },
+    {
+      "path": "docs/prior-art.md",
+      "sha": "c30a1c4196178a97e35458cc9ed1772c400b90d1",
+      "size": 4874
+    },
+    {
+      "path": "docs/writeup.md",
+      "sha": "0c69cd73408509b55f0567e1859b221cd0032eca",
+      "size": 6510
+    },
+    {
+      "path": "optunahub/package/pruners/conformal/README.md",
+      "sha": "b82f8997aafde1e9f3d001bda9c7a43a38d1a0a9",
+      "size": 4587
+    },
+    {
+      "path": "optunahub/package/pruners/conformal/__init__.py",
+      "sha": "a1a4ac8896c29dc80a1da2b4b7f032f7e120ba2e",
+      "size": 217
+    },
+    {
+      "path": "optunahub/package/pruners/conformal/_core.py",
+      "sha": "629b40cd583cea4a7d7c506dbdaade153bd4a36d",
+      "size": 9691
+    },
+    {
+      "path": "optunahub/package/pruners/conformal/_pruner.py",
+      "sha": "44cbc3bff5fbd216bc6aecb242ea86da71b0a84d",
+      "size": 5122
+    },
+    {
+      "path": "optunahub/package/pruners/conformal/example.py",
+      "sha": "a96bb976077e50582e64f5f8f50bef6a88e9755e",
+      "size": 1486
+    },
+    {
+      "path": "optunahub/package/pruners/conformal/requirements.txt",
+      "sha": "0ffddefd09699aaf69ba29463c6fa93046dd5d53",
+      "size": 24
+    },
+    {
+      "path": "pyproject.toml",
+      "sha": "7e3179452c3fea87cc06b494ac6038a0bee60423",
+      "size": 1048
+    },
+    {
+      "path": "reproduce/reproduce_cc03c.py",
+      "sha": "499663b3badb110055ce5e1ecf280b2511059256",
+      "size": 4070
+    },
+    {
+      "path": "reproduce/reproduce_cc03c_RESULTS.txt",
+      "sha": "3efbdfb2865fa40e5f0fa73b5dd9c507d3b00bdc",
+      "size": 1437
+    },
+    {
+      "path": "src/surestop/__init__.py",
+      "sha": "25bbca992e0d1eecb709ad4a42130316711070a7",
+      "size": 556
+    },
+    {
+      "path": "src/surestop/core.py",
+      "sha": "9dc0449d8d274ce89d318820850185a7a4b66569",
+      "size": 9554
+    },
+    {
+      "path": "src/surestop/optuna_pruner.py",
+      "sha": "ad2e0fe49bc9887ca9ab7476f538300c99f348f0",
+      "size": 4835
+    }
+  ]
+}

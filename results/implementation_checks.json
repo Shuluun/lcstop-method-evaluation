@@ -1,0 +1,33 @@
+{
+  "scope": "synthetic implementation checks only",
+  "checks": [
+    {
+      "name": "numeric JSON adapter: missing stays missing, quoted strings preserved across blocks",
+      "status": "PASS"
+    },
+    {
+      "name": "future-label mutations leave earlier forecasts/actions unchanged (four stopping policies)",
+      "status": "PASS"
+    },
+    {
+      "name": "paid-prefix whitelist, jump, rewind and test/endpoint request rejection",
+      "status": "PASS"
+    },
+    {
+      "name": "original SureStop rank/decision equivalence, insufficient sample, negative-infinity case; task quantile infinity",
+      "status": "PASS"
+    },
+    {
+      "name": "fresh subprocess per strategy; deterministic independent replay; exact no-double-count costs",
+      "status": "PASS"
+    },
+    {
+      "name": "late-bloomer failure and single-configuration versus task event distinction",
+      "status": "PASS"
+    }
+  ],
+  "wall_seconds": 3.7944728000147734,
+  "parent_cpu_seconds": 0.1875,
+  "child_cpu_seconds": 2.546875,
+  "total_accounted_cpu_seconds": 2.734375
+}

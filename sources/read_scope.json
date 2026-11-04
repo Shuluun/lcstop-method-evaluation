@@ -1,0 +1,93 @@
+{
+  "access_date_utc": "2026-10-30",
+  "old_project": "read-only boundary metadata only; no raw/results/503 re-audit in this new task",
+  "papers": [
+    {
+      "id": "L1",
+      "title": "Non-stochastic Best Arm Identification and Hyperparameter Optimization",
+      "url": "https://proceedings.mlr.press/v51/jamieson16.pdf",
+      "scope": "full PDF available; read problem, Figure 3 SH, Section 3.1 and theorem/remark; not full appendix proof audit",
+      "code": "author code not located in bounded lookup; own fixed-rung adaptation explicitly labelled"
+    },
+    {
+      "id": "L2",
+      "title": "Hyperband: A Novel Bandit-Based Approach to Hyperparameter Optimization",
+      "url": "https://jmlr.org/papers/volume18/16-558/16-558.pdf",
+      "scope": "full PDF available; read Section 3 algorithms, theorem1 and related theory passages; not every experiment/proof",
+      "code": "author repository not verified; guessed LishaLi/Hyperband 404; do not claim faithful full Hyperband reproduction"
+    },
+    {
+      "id": "L3",
+      "title": "Confidence-Bound Early Stopping of Experiments with Sequential Calibration",
+      "doi": "10.1016/j.cherd.2026.05.013",
+      "url": "https://openresearch.surrey.ac.uk/esploro/outputs/journalArticle/Confidence-Bound-Early-Stopping-of-Experiments-with/991125095402346",
+      "scope": "accepted PDF obtained, methods Sections 2.1-2.5 and LCBench/evaluation Sections3.2-3.3 read; source read; not all results rechecked",
+      "code": "IroayX/CBES README and src/compare_methods_lcbench.py; not executed"
+    },
+    {
+      "id": "L4",
+      "title": "SureStop",
+      "url": "https://github.com/ACNoonan/surestop",
+      "scope": "software README and full core.py, license; no peer-reviewed paper independently established",
+      "code": "unchanged core KillRule invoked with fixed tau, default last_value; not 400-run LoRA reproduction"
+    },
+    {
+      "id": "L5",
+      "title": "Conformal Risk Control",
+      "url": "https://arxiv.org/html/2208.02814v4",
+      "scope": "version4, algorithm/Section2.1 theorem and proof; not all extensions",
+      "code": "README and core/get_lhat.py read, not imported"
+    },
+    {
+      "id": "L6",
+      "title": "Learn then Test: Calibrating Predictive Algorithms to Achieve Risk Control",
+      "url": "https://arxiv.org/html/2110.01052v4",
+      "scope": "version4, Sections1.3/2.1-2.3 framework and finite-family procedure; not every appendix",
+      "code": "README/core/bounds.py; binomial p-value formula reimplemented using scipy only; full package not imported"
+    },
+    {
+      "id": "L7",
+      "title": "In-Context Freeze-Thaw Bayesian Optimization for Hyperparameter Optimization",
+      "url": "https://arxiv.org/html/2404.16795v2",
+      "scope": "version2 Sections3-4 algorithms/predictor; not every benchmark/proof",
+      "code": "automl/ifBO README, ifbo/surrogate.py, download.py; no import, checkpoint download, foundation training or inference"
+    },
+    {
+      "id": "L8",
+      "title": "Conformal Prediction for Early Stopping in Mixed Integer Optimization",
+      "url": "https://arxiv.org/html/2602.01476v1",
+      "scope": "version1 Sections3/4.1 including Theorem4.1; not full experiment replication",
+      "code": "README/cmippy/cp.py read; no MIP solver, torch model or optimization executed"
+    },
+    {
+      "id": "L9",
+      "title": "Multi-Fidelity Best-Arm Identification",
+      "url": "https://papers.nips.cc/paper/2022/file/71c31ebf577ffdad5f4a74156daad518-Paper-Conference.pdf",
+      "scope": "2022 full PDF available; setting Section2 and stated cost/bias assumptions, algorithm summary; not all proofs",
+      "code": "riccardopoiani/mf-bai README and algorithms/bai.py read, not executed"
+    },
+    {
+      "id": "L10",
+      "title": "Multi-Fidelity Multi-Armed Bandits Revisited",
+      "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2023/10/neurips23_mfmab.pdf",
+      "scope": "full PDF downloaded; Sections2/3 and input knowledge, not all proof audit",
+      "code": "2024 authors' reimplementation algorithms/lucb.py read; not claimed original 2023 code replication"
+    },
+    {
+      "id": "L11",
+      "title": "Optimal Multi-Fidelity Best-Arm Identification",
+      "url": "https://arxiv.org/html/2406.03033v2",
+      "scope": "2024 paper updated version2 May2025; Sections2/4 and theorem4.1; AppendixD.6 issues noted as authors' discussion, not independently established here",
+      "code": "riccardopoiani/adv-mf-bai README, gradient.py, lucb.py and environment class; not executed"
+    }
+  ],
+  "metadata_implementation_reference": {
+    "url": "https://github.com/syne-tune/syne-tune/blob/main/syne_tune/blackbox_repository/conversion_scripts/scripts/lcbench/lcbench.py",
+    "scope": "source read only: maps raw[1:-1] to epochs1..50, labels time as elapsed time; removes epoch0 scoring time, unlike our predeclared include-initial-cost convention",
+    "blob_sha": "816023f5ec8ee14371c7e5237d449cbdec1e9fcb"
+  },
+  "unit_definition_reference": {
+    "url": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.balanced_accuracy_score.html",
+    "scope": "definition and [0,1] range; not full historical generator implementation"
+  }
+}

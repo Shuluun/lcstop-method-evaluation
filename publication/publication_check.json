@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "scope": "Static packaging checks only, not scientific recalculation or a guarantee that no secret can exist",
+  "files": 163,
+  "bytes": 11390208,
+  "largest_bytes": 1168036,
+  "source_files_compared": 145,
+  "source_files_changed": [],
+  "source_hash_scope": "whitelisted source files plus AGENTS only; not the raw archive, environment or whole disk",
+  "copied_files_mismatched": [],
+  "python_files_ast_compiled": 17,
+  "over_100_mib": [],
+  "prohibited_files": [],
+  "credential_pattern_findings": [],
+  "unnecessary_personal_paths": [],
+  "first_party_document_links_broken": [],
+  "scientific_scripts_executed": false,
+  "dependency_installation": false,
+  "model_training": false,
+  "policy_replay": false,
+  "raw_archive_opened": false
+}

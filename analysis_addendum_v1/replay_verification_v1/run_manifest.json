@@ -1,0 +1,48 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.3.5",
+  "ijson": "3.6.0",
+  "script_sha256": "871988b2a9e45855c4c792d4a44711560a39216385e88c841d8c5723c0af5388",
+  "orders_sha256": "6568e2f272349496b9171f690db29d195a209488a608ae2295861827b3891f50",
+  "inputs_sha256": {
+    "data/selected_validation_v2_units.json": "13744545501354503d405adbf8803f8210a1c4d79df648c0736d6118647b0fbb",
+    "policies.py": "3f5e3c4f51056be9b0404a57c71a2370e0b9ca4f29955188355c15566ee57f42",
+    "replay.py": "59c8fea2c1aaa24d58d148d88c185fd1312008b9c78e2bb7b24ef5f5bb4fdb7d",
+    "pilot_rules.md": "20f629fda8de7729c9a0ed9d8a6b87757bb8aaf8dff3c66e6751e5c410b267cf",
+    "results/car__sh.json": "98ae45188a630c801ab3152a292527e17947d6eb3618abb28866bcaf40667537",
+    "results/car__surestop.json": "03ac6eccff879bb7143c747db2319e17a337b7ae967ff6f9256155e28b81426d",
+    "results/christine__sh.json": "d41a85e2df65fe56fd8a4253acd138adb35a5fc39ed8e6e5dae8db39f85f6be1",
+    "results/christine__surestop.json": "a15cd5d61333ebcdc4f580b593887de1f15855db6d95606189ad58a256b81462",
+    "results/kr-vs-kp__sh.json": "99856884f39dfbbc9503a6f658faab6d00c1e7cf1aa52fce80e582353a37f220",
+    "results/kr-vs-kp__surestop.json": "72f072518ec41d57df6a1036107d5b03a845b0c4d65d32ee1b3f7a5b79827f70"
+  },
+  "input_fingerprints_unchanged": true,
+  "scope": "only consulted cache, six result files, two policy code files and pilot rules; not all project files",
+  "prepare_cpu_seconds": 0.765625,
+  "analysis_process_cpu_seconds": 6.875,
+  "total_measured_cpu_seconds": 7.640625,
+  "cpu_limit_seconds": 600.0,
+  "run_wall_seconds": 8.16912219999358,
+  "task_names": [
+    "car",
+    "christine",
+    "kr-vs-kp"
+  ],
+  "n_repeats_per_task": 200,
+  "random_orders": 600,
+  "budget_replays": 1200,
+  "checks": [
+    "no cost look-ahead skipping",
+    "partial budget fully charged without endpoint",
+    "exact budget boundary completes candidate",
+    "unpaid label mutation leaves recommendation and path unchanged",
+    "zero-completion trial retained as failure"
+  ],
+  "formal_evaluation_started": false,
+  "new_training": 0,
+  "new_data": 0,
+  "raw_archives_opened": false,
+  "other_task_objects_materialized": false,
+  "matplotlib": "3.11.2"
+}

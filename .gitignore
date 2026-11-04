@@ -1,0 +1,19 @@
+# Local environments, credentials and runtime outputs
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+**/__pycache__/
+*.py[cod]
+.cache/
+**/.cache/
+data/bench_full.zip
+data/*.part
+*.zip
+*.pdf
+reproductions/
+publication/local_*
+# Historical outputs are explicitly versioned; new runs belong in reproductions/.

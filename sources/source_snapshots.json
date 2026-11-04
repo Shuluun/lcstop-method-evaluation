@@ -1,0 +1,252 @@
+{
+  "utc": "2026-10-30T05:56:20Z",
+  "scope": "new publicly obtained source versions only; external runtime import is SureStop core only",
+  "note": "Git trees are not commits; local SHA256 pins copied bytes, not access history",
+  "files": [
+    {
+      "path": "sources/repos/aangelopoulos/conformal-risk/core/get_lhat.py",
+      "public_source": "https://github.com/aangelopoulos/conformal-risk/blob/HEAD/core/get_lhat.py",
+      "sha256": "ddf93c30cc703aa782c1d4f0201ca1360616b510000662cfbd0a506e91cc7546",
+      "bytes": 479,
+      "kind": "source snapshot"
+    },
+    {
+      "path": "sources/repos/aangelopoulos/conformal-risk/LICENSE",
+      "public_source": "https://github.com/aangelopoulos/conformal-risk/blob/HEAD/LICENSE",
+      "sha256": "d631c0d0db3a179767a4a13d50b586450766c1be90bb4f7d63dc21b248edc71b",
+      "bytes": 1080,
+      "kind": "source snapshot"
+    },
+    {
+      "path": "sources/repos/aangelopoulos/conformal-risk/README.md",
+      "public_source": "https://github.com/aangelopoulos/conformal-risk/blob/HEAD/README.md",
+      "sha256": "3b8048da59836277eddf8b807f636002a72db3c70bdc426468913b878ec306ac",
+      "bytes": 3127,
+      "kind": "source snapshot"
+    },
+    {
+      "path": "sources/repos/aangelopoulos/conformal-risk/tree.json",
+      "public_source": "https://api.github.com/repos/aangelopoulos/conformal-risk/git/trees/HEAD?recursive=1",
+      "sha256": "66708098867cfcf63197db3acf0454c29083c85b3dc87af2b466abc392a4869b",
+      "bytes": 4248,
+      "kind": "reduced repository tree metadata"
+    },
+    {
+      "path": "sources/repos/aangelopoulos/ltt/core/bounds.py",
+      "public_source": "https://github.com/aangelopoulos/ltt/blob/HEAD/core/bounds.py",
+      "sha256": "0289491c3ee8aab491bf6b7e4e0f351692e0070e2c3a9c5316884b333bd70328",
+      "bytes": 2326,
+      "kind": "source snapshot"
+    },
+    {
+      "path": "sources/repos/aangelopoulos/ltt/LICENSE",
+      "public_source": "https://github.com/aangelopoulos/ltt/blob/HEAD/LICENSE",
+      "sha256": "f5cc5421f2a30ad67c7e766dffbce1da33f117652206b703063e45894c62ef3c",
+      "bytes": 1080,
+      "kind": "source snapshot"
+    },
+    {
+      "path": "sources/repos/aangelopoulos/ltt/README.md",
+      "public_source": "https://github.com/aangelopoulos/ltt/blob/HEAD/README.md",
+      "sha256": "6c00fd96690f044c51b411a36b1deb7dd564cc183369d8895724678d1d970bbb",
+      "bytes": 1818,
+      "kind": "source snapshot"
+    },
+    {
+      "path": "sources/repos/aangelopoulos/ltt/tree.json",
+      "public_source": "https://api.github.com/repos/aangelopoulos/ltt/git/trees/HEAD?recursive=1",
+      "sha256": "0c37c7a5435adc301223f66a3564c62d5a34dd019598800ebe868671c21f8445",
+      "bytes": 8843,
+      "kind": "reduced repository tree metadata"
+    },
+    {
+      "path": "sources/repos/ACNoonan/surestop/LICENSE",
+      "public_source": "https://github.com/ACNoonan/surestop/blob/HEAD/LICENSE",
+      "sha256": "79925f0fba3a4ad9cb684ef250c582c275339c6bb70961f3db536025c1a4789f",
+      "bytes": 1068,
+      "kind": "source snapshot"
+    },
+    {
+      "path": "sources/repos/ACNoonan/surestop/README.md",
+      "public_source": "https://github.com/ACNoonan/surestop/blob/HEAD/README.md",
+      "sha256": "e64c47c5c827d12859d8b952bc09c072375511887ee57e489bedcf485b268fa9",
+      "bytes": 7465,
+      "kind": "source snapshot"
+    },
+    {
+      "path": "sources/repos/ACNoonan/surestop/src/surestop/core.py",
+      "public_source": "https://github.com/ACNoonan/surestop/blob/HEAD/src/surestop/core.py",
+      "sha256": "6b3628e2dbf728daf3fb96b18c66d798f047e1dae779707a9bc6cc80dda7cf9a",
+      "bytes": 9554,
+      "kind": "source snapshot"
+    },
+    {
+      "path": "sources/repos/ACNoonan/surestop/tree.json",
+      "public_source": "https://api.github.com/repos/ACNoonan/surestop/git/trees/HEAD?recursive=1",
+      "sha256": "7b32daa899c3203160baea5f5168f94cfb64374270eec09cb16a817d467968e5",
+      "bytes": 2629,
+      "kind": "reduced repository tree metadata"
+    },
+    {
+      "path": "sources/repos/automl/ifBO/ifbo/download.py",
+      "public_source": "https://github.com/automl/ifBO/blob/HEAD/ifbo/download.py",
+      "sha256": "fe9b6a0dc7f842c1c0c611b6005aea7b09210d3c4b0561e13b48f121a0e68be9",
+      "bytes": 5682,
+      "kind": "source snapshot"
+    },
+    {
+      "path": "sources/repos/automl/ifBO/ifbo/surrogate.py",
+      "public_source": "https://github.com/automl/ifBO/blob/HEAD/ifbo/surrogate.py",
+      "sha256": "afc6992ea2a7c8f7fb9ac2555fbe69cb412c43ac7d2783be31644590cfc42249",
+      "bytes": 7077,
+      "kind": "source snapshot"
+    },
+    {
+      "path": "sources/repos/automl/ifBO/LICENSE",
+      "public_source": "https://github.com/automl/ifBO/blob/HEAD/LICENSE",
+      "sha256": "bbc9b3f6f7dd6b2363a428d789faeaa66441c58570f9a57cc9621cb2cd407edc",
+      "bytes": 1081,
+      "kind": "source snapshot"
+    },
+    {
+      "path": "sources/repos/automl/ifBO/README.md",
+      "public_source": "https://github.com/automl/ifBO/blob/HEAD/README.md",
+      "sha256": "67c84bcd9cbc7a5dc31a19b546abf97864c94d5c4963e1b4e9c0b3b9ff8649d7",
+      "bytes": 6057,
+      "kind": "source snapshot"
+    },
+    {
+      "path": "sources/repos/automl/ifBO/tree.json",
+      "public_source": "https://api.github.com/repos/automl/ifBO/git/trees/HEAD?recursive=1",
+      "sha256": "c35aa217504ec45c323c862596f292440a38be84de46f8ca99f52c301eaf41b3",
+      "bytes": 2800,
+      "kind": "reduced repository tree metadata"
+    },
+    {
+      "path": "sources/repos/automl/LCBench/api.py",
+      "public_source": "https://github.com/automl/LCBench/blob/HEAD/api.py",
+      "sha256": "de18a8ad42e5de0fb577f523a2e16833c56f0967eb8d588fa81824d62ffee76c",
+      "bytes": 9287,
+      "kind": "source snapshot"
+    },
+    {
+      "path": "sources/repos/automl/LCBench/LICENSE",
+      "public_source": "https://github.com/automl/LCBench/blob/HEAD/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357,
+      "kind": "source snapshot"
+    },
+    {
+      "path": "sources/repos/automl/LCBench/README.md",
+      "public_source": "https://github.com/automl/LCBench/blob/HEAD/README.md",
+      "sha256": "10a3e28c5f43d32e1599077a69e50832cb242f9ed8beba4c39894aacdd81d838",
+      "bytes": 3090,
+      "kind": "source snapshot"
+    },
+    {
+      "path": "sources/repos/automl/LCBench/tree.json",
+      "public_source": "https://api.github.com/repos/automl/LCBench/git/trees/HEAD?recursive=1",
+      "sha256": "c91f80eb4fe576e12d3efe8910810d6c3b7fc2fe44d5e091fd0f0be9f6dde9b1",
+      "bytes": 647,
+      "kind": "reduced repository tree metadata"
+    },
+    {
+      "path": "sources/repos/IroayX/CBES/LICENSE",
+      "public_source": "https://github.com/IroayX/CBES/blob/HEAD/LICENSE",
+      "sha256": "e4b25ecce5a72fbd28a8dbf23425ad96b6c7a243a561520e2368fe89cfba65d3",
+      "bytes": 1124,
+      "kind": "source snapshot"
+    },
+    {
+      "path": "sources/repos/IroayX/CBES/README.md",
+      "public_source": "https://github.com/IroayX/CBES/blob/HEAD/README.md",
+      "sha256": "dc722352cfa7a3ad08e2ea0d35539c87e300fd7c44b09364cad7424f47fd60bc",
+      "bytes": 7307,
+      "kind": "source snapshot"
+    },
+    {
+      "path": "sources/repos/IroayX/CBES/src/compare_methods_lcbench.py",
+      "public_source": "https://github.com/IroayX/CBES/blob/HEAD/src/compare_methods_lcbench.py",
+      "sha256": "f0f0336148e23acfee77ba7f2695caf0e07bfe8de28203298890cb1156eaa5bb",
+      "bytes": 27205,
+      "kind": "source snapshot"
+    },
+    {
+      "path": "sources/repos/IroayX/CBES/tree.json",
+      "public_source": "https://api.github.com/repos/IroayX/CBES/git/trees/HEAD?recursive=1",
+      "sha256": "2a19f60d73a5eec62f78d1dd89f148abc33dd0842fc689e79cac96edf55ba3dd",
+      "bytes": 1491,
+      "kind": "reduced repository tree metadata"
+    },
+    {
+      "path": "sources/repos/riccardopoiani/adv-mf-bai/algorithms/gradient.py",
+      "public_source": "https://github.com/riccardopoiani/adv-mf-bai/blob/HEAD/algorithms/gradient.py",
+      "sha256": "eac6bb1492af2fd53a8719f7d79f1fa43b1c63403fec7ec219c5590d1168543e",
+      "bytes": 10345,
+      "kind": "source snapshot"
+    },
+    {
+      "path": "sources/repos/riccardopoiani/adv-mf-bai/algorithms/lucb.py",
+      "public_source": "https://github.com/riccardopoiani/adv-mf-bai/blob/HEAD/algorithms/lucb.py",
+      "sha256": "d462340d832ff89f0d595c93bd2bf52bcf141cb8ce0164e9e8b50cd564fe68cc",
+      "bytes": 5380,
+      "kind": "source snapshot"
+    },
+    {
+      "path": "sources/repos/riccardopoiani/adv-mf-bai/envs/multi_fidelity_env.py",
+      "public_source": "https://github.com/riccardopoiani/adv-mf-bai/blob/HEAD/envs/multi_fidelity_env.py",
+      "sha256": "70e499426be0376e3d368dd0f8ff97be798b6069a5f1ac8579bd098398e2f361",
+      "bytes": 7108,
+      "kind": "source snapshot"
+    },
+    {
+      "path": "sources/repos/riccardopoiani/adv-mf-bai/README.md",
+      "public_source": "https://github.com/riccardopoiani/adv-mf-bai/blob/HEAD/README.md",
+      "sha256": "1e96523707723520ebc8256ef96ad00d3f9eecdf7bae11a54163291488cc8ca2",
+      "bytes": 3901,
+      "kind": "source snapshot"
+    },
+    {
+      "path": "sources/repos/riccardopoiani/mf-bai/algorithms/bai.py",
+      "public_source": "https://github.com/riccardopoiani/mf-bai/blob/HEAD/algorithms/bai.py",
+      "sha256": "089386d91c7d1d8546a31fbc6a150c2bd81e5af975efa4b957e08ac5fbf3ccce",
+      "bytes": 12291,
+      "kind": "source snapshot"
+    },
+    {
+      "path": "sources/repos/riccardopoiani/mf-bai/README.md",
+      "public_source": "https://github.com/riccardopoiani/mf-bai/blob/HEAD/README.md",
+      "sha256": "76031d87cd5dd05e0b0b27f414a04accb20da80bec245cc3b5de9b2ec6ca49c2",
+      "bytes": 2527,
+      "kind": "source snapshot"
+    },
+    {
+      "path": "sources/repos/stellatogrp/conformal_mip/cmippy/cp.py",
+      "public_source": "https://github.com/stellatogrp/conformal_mip/blob/HEAD/cmippy/cp.py",
+      "sha256": "903c1b1a9b62b9e54b30960785daccdc91d5dabce69a4eef5e4f3036cdb920fc",
+      "bytes": 6209,
+      "kind": "source snapshot"
+    },
+    {
+      "path": "sources/repos/stellatogrp/conformal_mip/README.md",
+      "public_source": "https://github.com/stellatogrp/conformal_mip/blob/HEAD/README.md",
+      "sha256": "a4133134d309dcff5d1455ee81b4e9c6f68d15f88de982e6650c7c861935e278",
+      "bytes": 2992,
+      "kind": "source snapshot"
+    },
+    {
+      "path": "sources/repos/stellatogrp/conformal_mip/tree.json",
+      "public_source": "https://api.github.com/repos/stellatogrp/conformal_mip/git/trees/HEAD?recursive=1",
+      "sha256": "2527d01e6f12ce652b0cb53aec0bd4a4a38ab239756f887c2bd91c472e7f9421",
+      "bytes": 2329,
+      "kind": "reduced repository tree metadata"
+    },
+    {
+      "path": "sources/repos/syne-tune/syne-tune/lcbench_converter.py",
+      "public_source": "https://github.com/syne-tune/syne-tune/blob/main/syne_tune/blackbox_repository/conversion_scripts/scripts/lcbench/lcbench.py",
+      "sha256": "7f6b0041ac9f585d787563b05d9da18cda9eb4764d6f0adf654af8bcac241b50",
+      "bytes": 4792,
+      "kind": "source read only"
+    }
+  ]
+}

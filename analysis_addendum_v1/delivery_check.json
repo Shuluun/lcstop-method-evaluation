@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "attribution_rows": 3,
+  "random_rows": 1200,
+  "rows_per_task_budget": 200,
+  "budgets_fully_spent": true,
+  "consulted_original_files_unchanged": true,
+  "missing_links": [],
+  "deterministic_replay_data_files_identical": true,
+  "original_analysis_cpu_seconds": 8.375,
+  "replay_and_analysis_recorded_cpu_seconds": 16.015625,
+  "notes": "No new seeds, outcomes, tasks, policy retuning or original result edits."
+}
