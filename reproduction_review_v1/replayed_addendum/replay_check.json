@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "identical_data_artifacts": {
+    "orders.json": true,
+    "attribution.csv": true,
+    "random_budget_comparison.csv": true,
+    "random_summary.json": true
+  },
+  "new_random_orders": false,
+  "original_analysis_cpu_seconds": 8.375,
+  "replay_cpu_seconds": 11.71875,
+  "combined_measured_cpu_seconds": 20.09375,
+  "driver_sha256": "1597d1aedf1afd7a6cf6aa91ff532b9f29b34b28c1c632916e245fa017bb9395",
+  "source_sha256": "871988b2a9e45855c4c792d4a44711560a39216385e88c841d8c5723c0af5388",
+  "scope": "deterministic replay of the same 200 orders/task, not extra Monte Carlo observations"
+}

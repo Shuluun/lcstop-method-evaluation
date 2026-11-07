@@ -1,0 +1,8 @@
+﻿{
+    "exit_code":  0,
+    "system_site_packages":  false,
+    "environment":  ".venv",
+    "requirements":  "requirements-replay.txt",
+    "wall_seconds":  29.5657185,
+    "index":  "https://pypi.org/simple"
+}

@@ -1,0 +1,17 @@
+{
+  "phase": "pilot",
+  "status": "PASS",
+  "returncode": 0,
+  "wall_seconds": 107.94512160005979,
+  "command": [
+    ".venv/Scripts/python.exe",
+    "-B",
+    "tools/reproduce.py",
+    "pilot",
+    "--name",
+    "pilot_replay_01"
+  ],
+  "raw_archive_opened": false,
+  "new_training": false,
+  "formal_test": false
+}

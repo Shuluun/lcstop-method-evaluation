@@ -1,0 +1,25 @@
+{
+  "status": "FAIL",
+  "returncode": 2,
+  "notices": [
+    "reproduction_review_v1/dependency_install.log:13: trailing whitespace.",
+    "reproduction_review_v1/dependency_install.log:64: new blank line at EOF.",
+    "reproduction_review_v1/requirements-resolved.txt:1: trailing whitespace.",
+    "reproduction_review_v1/requirements-resolved.txt:2: trailing whitespace.",
+    "reproduction_review_v1/requirements-resolved.txt:3: trailing whitespace.",
+    "reproduction_review_v1/requirements-resolved.txt:4: trailing whitespace.",
+    "reproduction_review_v1/requirements-resolved.txt:5: trailing whitespace.",
+    "reproduction_review_v1/requirements-resolved.txt:6: trailing whitespace.",
+    "reproduction_review_v1/requirements-resolved.txt:7: trailing whitespace.",
+    "reproduction_review_v1/requirements-resolved.txt:8: trailing whitespace.",
+    "reproduction_review_v1/requirements-resolved.txt:9: trailing whitespace.",
+    "reproduction_review_v1/requirements-resolved.txt:10: trailing whitespace.",
+    "reproduction_review_v1/requirements-resolved.txt:11: trailing whitespace.",
+    "reproduction_review_v1/requirements-resolved.txt:12: trailing whitespace.",
+    "reproduction_review_v1/requirements-resolved.txt:13: trailing whitespace.",
+    "reproduction_review_v1/requirements-resolved.txt:14: trailing whitespace."
+  ],
+  "scientific_output_changed": false,
+  "after_new_log_lock_newline_cleanup": "PASS",
+  "final_returncode": 0
+}

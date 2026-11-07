@@ -1,0 +1,199 @@
+{
+  "status": "PASS",
+  "comparison_rule": "Exact equality of saved scientific fields, traces, payments and positions; timing-only fields separately excluded. Attribution requires byte-identical four data artifacts.",
+  "pilot_replays_compared": 30,
+  "pilot_scientific_output_comparisons": [
+    {
+      "task": "volkert",
+      "method": "full",
+      "exact_scientific_outputs_match": true
+    },
+    {
+      "task": "volkert",
+      "method": "sh",
+      "exact_scientific_outputs_match": true
+    },
+    {
+      "task": "volkert",
+      "method": "linear",
+      "exact_scientific_outputs_match": true
+    },
+    {
+      "task": "volkert",
+      "method": "surestop",
+      "exact_scientific_outputs_match": true
+    },
+    {
+      "task": "volkert",
+      "method": "taskmax",
+      "exact_scientific_outputs_match": true
+    },
+    {
+      "task": "higgs",
+      "method": "full",
+      "exact_scientific_outputs_match": true
+    },
+    {
+      "task": "higgs",
+      "method": "sh",
+      "exact_scientific_outputs_match": true
+    },
+    {
+      "task": "higgs",
+      "method": "linear",
+      "exact_scientific_outputs_match": true
+    },
+    {
+      "task": "higgs",
+      "method": "surestop",
+      "exact_scientific_outputs_match": true
+    },
+    {
+      "task": "higgs",
+      "method": "taskmax",
+      "exact_scientific_outputs_match": true
+    },
+    {
+      "task": "mfeat-factors",
+      "method": "full",
+      "exact_scientific_outputs_match": true
+    },
+    {
+      "task": "mfeat-factors",
+      "method": "sh",
+      "exact_scientific_outputs_match": true
+    },
+    {
+      "task": "mfeat-factors",
+      "method": "linear",
+      "exact_scientific_outputs_match": true
+    },
+    {
+      "task": "mfeat-factors",
+      "method": "surestop",
+      "exact_scientific_outputs_match": true
+    },
+    {
+      "task": "mfeat-factors",
+      "method": "taskmax",
+      "exact_scientific_outputs_match": true
+    },
+    {
+      "task": "car",
+      "method": "full",
+      "exact_scientific_outputs_match": true
+    },
+    {
+      "task": "car",
+      "method": "sh",
+      "exact_scientific_outputs_match": true
+    },
+    {
+      "task": "car",
+      "method": "linear",
+      "exact_scientific_outputs_match": true
+    },
+    {
+      "task": "car",
+      "method": "surestop",
+      "exact_scientific_outputs_match": true
+    },
+    {
+      "task": "car",
+      "method": "taskmax",
+      "exact_scientific_outputs_match": true
+    },
+    {
+      "task": "christine",
+      "method": "full",
+      "exact_scientific_outputs_match": true
+    },
+    {
+      "task": "christine",
+      "method": "sh",
+      "exact_scientific_outputs_match": true
+    },
+    {
+      "task": "christine",
+      "method": "linear",
+      "exact_scientific_outputs_match": true
+    },
+    {
+      "task": "christine",
+      "method": "surestop",
+      "exact_scientific_outputs_match": true
+    },
+    {
+      "task": "christine",
+      "method": "taskmax",
+      "exact_scientific_outputs_match": true
+    },
+    {
+      "task": "kr-vs-kp",
+      "method": "full",
+      "exact_scientific_outputs_match": true
+    },
+    {
+      "task": "kr-vs-kp",
+      "method": "sh",
+      "exact_scientific_outputs_match": true
+    },
+    {
+      "task": "kr-vs-kp",
+      "method": "linear",
+      "exact_scientific_outputs_match": true
+    },
+    {
+      "task": "kr-vs-kp",
+      "method": "surestop",
+      "exact_scientific_outputs_match": true
+    },
+    {
+      "task": "kr-vs-kp",
+      "method": "taskmax",
+      "exact_scientific_outputs_match": true
+    }
+  ],
+  "recursive_nodes_compared": 77528,
+  "exact_mismatches": [],
+  "max_abs_numeric_mismatch": 0.0,
+  "timing_fields_excluded": [
+    "calibration_compute_cpu_seconds",
+    "experiment_accounted_cpu_seconds",
+    "experiment_parent_cpu_seconds",
+    "online_policy_cpu_seconds",
+    "parser_process_cpu_seconds",
+    "policy_child_cpu_seconds",
+    "policy_cpu_seconds",
+    "prepare_cpu_seconds",
+    "process_cpu_seconds",
+    "task_calibration_compute_cpu_seconds",
+    "wall_seconds",
+    "worker_wall_seconds"
+  ],
+  "synthetic_checks_reexecuted": 6,
+  "synthetic_statuses": [
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS"
+  ],
+  "attribution_byte_identical": {
+    "orders.json": true,
+    "attribution.csv": true,
+    "random_budget_comparison.csv": true,
+    "random_summary.json": true
+  },
+  "attribution_replay_check": "PASS",
+  "historical_tracked_files_changed": [],
+  "main_delivery_check": "PASS",
+  "main_replay_cpu_seconds": 53.015625,
+  "synthetic_cpu_seconds": 16.140625,
+  "attribution_cpu_seconds": 11.71875,
+  "new_training": 0,
+  "new_tasks": 0,
+  "formal_test_tasks": [],
+  "raw_archive_opened": false
+}

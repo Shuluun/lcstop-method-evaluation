@@ -1,0 +1,7 @@
+{
+  "task": "car",
+  "method": "linear",
+  "n_near_optimal": 1,
+  "final_validation_regret_pp": 2.8615037600199376,
+  "scope": "post-replay development failure illustration; not policy input"
+}

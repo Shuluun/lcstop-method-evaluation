@@ -1,0 +1,31 @@
+{
+  "new_shell_text_normalized_utf16_to_utf8": [
+    "dependency_install.log",
+    "requirements-resolved.txt"
+  ],
+  "scientific_code_changed": false,
+  "historical_results_changed": false,
+  "original_environment_changed": false,
+  "prepare_helper_path_generalized_after_execution": true,
+  "new_log_personal_paths_redacted": [
+    {
+      "file": "dependency_install.log",
+      "occurrences": 1
+    }
+  ],
+  "dependency_log_shell_note": "PowerShell formats uv stderr as NativeCommandError text; uv exit code was zero and isolated imports/replays succeeded. Original stdout/stderr wording otherwise retained.",
+  "new_shell_newline_cleanup": [
+    {
+      "file": "dependency_install.log",
+      "before_sha256": "265ffbc88011daf924419babb0c1815bf577f8521c2b4efdd311cb7afbf1a134",
+      "after_sha256": "c0db8f67b6ed243f468b5c763c5df9d6128cac7840ea7af43ae947664f06a151",
+      "change": "new log/lock text newline normalization"
+    },
+    {
+      "file": "requirements-resolved.txt",
+      "before_sha256": "cfd078dbba7be99f9e4f74e3cecf378ad2b625aad5b9610bbd5f991831ae2f3a",
+      "after_sha256": "67cf2c954587f11b74c223cfcc09784681cbf6943b9fcafa9485ce5b4cda3a02",
+      "change": "new log/lock text newline normalization"
+    }
+  ]
+}

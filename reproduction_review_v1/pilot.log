@@ -1,0 +1,257 @@
+[
+  {
+    "name": "numeric JSON adapter: missing stays missing, quoted strings preserved across blocks",
+    "status": "PASS"
+  },
+  {
+    "name": "future-label mutations leave earlier forecasts/actions unchanged (four stopping policies)",
+    "status": "PASS"
+  },
+  {
+    "name": "paid-prefix whitelist, jump, rewind and test/endpoint request rejection",
+    "status": "PASS"
+  },
+  {
+    "name": "original SureStop rank/decision equivalence, insufficient sample, negative-infinity case; task quantile infinity",
+    "status": "PASS"
+  },
+  {
+    "name": "fresh subprocess per strategy; deterministic independent replay; exact no-double-count costs",
+    "status": "PASS"
+  },
+  {
+    "name": "late-bloomer failure and single-configuration versus task event distinction",
+    "status": "PASS"
+  }
+]
+REPLAY volkert full finished
+REPLAY volkert sh finished
+REPLAY volkert linear finished
+REPLAY volkert surestop finished
+REPLAY volkert taskmax finished
+REPLAY higgs full finished
+REPLAY higgs sh finished
+REPLAY higgs linear finished
+REPLAY higgs surestop finished
+REPLAY higgs taskmax finished
+REPLAY mfeat-factors full finished
+REPLAY mfeat-factors sh finished
+REPLAY mfeat-factors linear finished
+REPLAY mfeat-factors surestop finished
+REPLAY mfeat-factors taskmax finished
+REPLAY car full finished
+REPLAY car sh finished
+REPLAY car linear finished
+REPLAY car surestop finished
+REPLAY car taskmax finished
+REPLAY christine full finished
+REPLAY christine sh finished
+REPLAY christine linear finished
+REPLAY christine surestop finished
+REPLAY christine taskmax finished
+REPLAY kr-vs-kp full finished
+REPLAY kr-vs-kp sh finished
+REPLAY kr-vs-kp linear finished
+REPLAY kr-vs-kp surestop finished
+REPLAY kr-vs-kp taskmax finished
+{
+  "summary": [
+    {
+      "method": "full",
+      "n_demo_tasks": 3,
+      "all_near_optimal_lost_count": 0,
+      "mean_task_loss": 0.0,
+      "mean_relative_recorded_cost": 1.0,
+      "mean_final_validation_regret_pp": 0.0,
+      "demo_total_recorded_seconds": 645944.5251674652,
+      "auxiliary_calibration_recorded_seconds": 0,
+      "cold_start_recorded_seconds": 645944.5251674652,
+      "single_run_joint_false_kill_task_equal": 0.0,
+      "ltt_development_n_tasks": 3,
+      "ltt_development_task_failures": 0,
+      "ltt_binomial_pvalue": 0.729,
+      "ltt_alpha": 0.1,
+      "ltt_delta": 0.05,
+      "ltt_bonferroni_methods": 5,
+      "ltt_certified": false,
+      "structurally_safe_no_pruning": true,
+      "ltt_note": "diagnostic only: metadata-selected tasks not established iid; no formal certification. Full/no-pruning is safe by construction, not by this powerless empirical test."
+    },
+    {
+      "method": "sh",
+      "n_demo_tasks": 3,
+      "all_near_optimal_lost_count": 0,
+      "mean_task_loss": 0.0,
+      "mean_relative_recorded_cost": 0.1324278631558604,
+      "mean_final_validation_regret_pp": 0.0,
+      "demo_total_recorded_seconds": 86229.44685816765,
+      "auxiliary_calibration_recorded_seconds": 0,
+      "cold_start_recorded_seconds": 86229.44685816765,
+      "single_run_joint_false_kill_task_equal": 0.17708333333333334,
+      "ltt_development_n_tasks": 3,
+      "ltt_development_task_failures": 0,
+      "ltt_binomial_pvalue": 0.729,
+      "ltt_alpha": 0.1,
+      "ltt_delta": 0.05,
+      "ltt_bonferroni_methods": 5,
+      "ltt_certified": false,
+      "structurally_safe_no_pruning": false,
+      "ltt_note": "diagnostic only: metadata-selected tasks not established iid; no formal certification. Full/no-pruning is safe by construction, not by this powerless empirical test."
+    },
+    {
+      "method": "linear",
+      "n_demo_tasks": 3,
+      "all_near_optimal_lost_count": 3,
+      "mean_task_loss": 1.0,
+      "mean_relative_recorded_cost": 0.019343156863046666,
+      "mean_final_validation_regret_pp": 1.9272353914048932,
+      "demo_total_recorded_seconds": 6935.155129909515,
+      "auxiliary_calibration_recorded_seconds": 0,
+      "cold_start_recorded_seconds": 6935.155129909515,
+      "single_run_joint_false_kill_task_equal": 0.20833333333333334,
+      "ltt_development_n_tasks": 3,
+      "ltt_development_task_failures": 0,
+      "ltt_binomial_pvalue": 0.729,
+      "ltt_alpha": 0.1,
+      "ltt_delta": 0.05,
+      "ltt_bonferroni_methods": 5,
+      "ltt_certified": false,
+      "structurally_safe_no_pruning": false,
+      "ltt_note": "diagnostic only: metadata-selected tasks not established iid; no formal certification. Full/no-pruning is safe by construction, not by this powerless empirical test."
+    },
+    {
+      "method": "surestop",
+      "n_demo_tasks": 3,
+      "all_near_optimal_lost_count": 0,
+      "mean_task_loss": 0.0,
+      "mean_relative_recorded_cost": 0.39101651371015517,
+      "mean_final_validation_regret_pp": 0.08829567167494072,
+      "demo_total_recorded_seconds": 187413.01001024246,
+      "auxiliary_calibration_recorded_seconds": 0,
+      "cold_start_recorded_seconds": 187413.01001024246,
+      "single_run_joint_false_kill_task_equal": 0.05555555555555555,
+      "ltt_development_n_tasks": 3,
+      "ltt_development_task_failures": 0,
+      "ltt_binomial_pvalue": 0.729,
+      "ltt_alpha": 0.1,
+      "ltt_delta": 0.05,
+      "ltt_bonferroni_methods": 5,
+      "ltt_certified": false,
+      "structurally_safe_no_pruning": false,
+      "ltt_note": "diagnostic only: metadata-selected tasks not established iid; no formal certification. Full/no-pruning is safe by construction, not by this powerless empirical test."
+    },
+    {
+      "method": "taskmax",
+      "n_demo_tasks": 3,
+      "all_near_optimal_lost_count": 0,
+      "mean_task_loss": 0.0,
+      "mean_relative_recorded_cost": 1.0,
+      "mean_final_validation_regret_pp": 0.0,
+      "demo_total_recorded_seconds": 645944.5251674652,
+      "auxiliary_calibration_recorded_seconds": 216138.88386011124,
+      "cold_start_recorded_seconds": 862083.4090275764,
+      "single_run_joint_false_kill_task_equal": 0.0,
+      "ltt_development_n_tasks": 3,
+      "ltt_development_task_failures": 0,
+      "ltt_binomial_pvalue": 0.729,
+      "ltt_alpha": 0.1,
+      "ltt_delta": 0.05,
+      "ltt_bonferroni_methods": 5,
+      "ltt_certified": false,
+      "structurally_safe_no_pruning": true,
+      "ltt_note": "diagnostic only: metadata-selected tasks not established iid; no formal certification. Full/no-pruning is safe by construction, not by this powerless empirical test."
+    }
+  ],
+  "cpu_seconds": 53.015625,
+  "wall_seconds": 54.93358790001366
+}
+{"task": "car", "method": "linear", "n_near_optimal": 1, "final_validation_regret_pp": 2.8615037600199376, "scope": "post-replay development failure illustration; not policy input"}
+{
+  "status": "PASS",
+  "task_loss_regret_equivalence": "PASS on all 30 replays and exact/just-above 1pp boundaries",
+  "scope": "new project delivery only; no old 503 re-audit or old hash checks",
+  "selected_counts": {
+    "volkert": 128,
+    "higgs": 128,
+    "mfeat-factors": 128,
+    "car": 128,
+    "christine": 128,
+    "kr-vs-kp": 128
+  },
+  "exact_metadata_duplicate_counts": {
+    "volkert": 0,
+    "higgs": 0,
+    "mfeat-factors": 0,
+    "car": 0,
+    "christine": 0,
+    "kr-vs-kp": 0
+  },
+  "actual_training_seeds": {
+    "volkert": [
+      "1",
+      "2",
+      "3"
+    ],
+    "higgs": [
+      "1",
+      "2",
+      "3"
+    ],
+    "mfeat-factors": [
+      "1",
+      "2",
+      "3"
+    ],
+    "car": [
+      "1",
+      "2",
+      "3"
+    ],
+    "christine": [
+      "1",
+      "2",
+      "3"
+    ],
+    "kr-vs-kp": [
+      "1",
+      "2",
+      "3"
+    ]
+  },
+  "real_tasks": 6,
+  "real_configuration_pools": 768,
+  "recorded_seed_curves": 2304,
+  "observations_per_seed": 5,
+  "experiment_cpu_seconds": 53.015625,
+  "invalid_attempt_cpu_seconds": 16.0625,
+  "all_recorded_replay_cpu_seconds": 69.078125,
+  "implementation_checks_cpu_seconds": 16.140625,
+  "experiment_plus_checks_cpu_seconds": 85.21875,
+  "cpu_ceiling_seconds": 14400,
+  "data_preparation_separate": {
+    "dependency_wall_seconds": 52.157685099999995,
+    "download_wall_seconds": 172.4766546000028,
+    "metadata_wall_seconds": 577.073959500005,
+    "metadata_cpu_seconds": 569.453125,
+    "extraction_wall_seconds": 60636.23106600001,
+    "extraction_cpu_seconds": 1178.71875,
+    "failed_preparation_duration": "not completely instrumented; failures retained separately"
+  },
+  "code_sha256": {
+    "policies.py": "3f5e3c4f51056be9b0404a57c71a2370e0b9ca4f29955188355c15566ee57f42",
+    "replay.py": "59c8fea2c1aaa24d58d148d88c185fd1312008b9c78e2bb7b24ef5f5bb4fdb7d",
+    "check_causality.py": "d60ddfc2d3a999acd6ac282a74585ebcd40f63af66064555ca3124a08ce9f636",
+    "extract_selected.py": "63cc2a427d6f92a548e7ed466438411eec4c5678250f7d1e5305e4374e059719",
+    "json_adapter.py": "137da29246903f33c78c11f6f4d6f295fc56df7c6aa08596bbc0401323d58883",
+    "plot_results.py": "54d27e63f321f19bf9b801342b2982b733e47c2182ad419b7da8097ccaa435cc",
+    "verify_delivery.py": "9a231c7c370d9613a114236749e37c791729ebb1bf7f375081304b53b11f40fc",
+    "download_full.py": "bdfe9c53cf0c820c1d5a5c6b0270eb301db6ba60d0c7842f2fc963a75c950a00",
+    "correct_unit_cache.py": "0d004f46e63c8b7b74f21999074ebf6f7e05b513d84f40b8d95b61b64d3ceaa6",
+    "pilot_rules.md": "20f629fda8de7729c9a0ed9d8a6b87757bb8aaf8dff3c66e6751e5c410b267cf"
+  },
+  "selected_input_sha256": "13744545501354503d405adbf8803f8210a1c4d79df648c0736d6118647b0fbb",
+  "result_sha256": "e6bc9cf528294073fa0ab6a984d0431710486d03791eeac481a1b7f2f6f27014",
+  "note": "Delivery-version fingerprints only, not a formal protocol freeze or proof data were never read.",
+  "utc": "2026-11-07T00:45:57Z"
+}
+Scratch output: D:\LCStop_Repro_20261106_v1\reproductions\pilot_replay_01

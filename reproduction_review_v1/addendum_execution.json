@@ -1,0 +1,17 @@
+{
+  "phase": "addendum",
+  "status": "PASS",
+  "returncode": 0,
+  "wall_seconds": 19.97624630003702,
+  "command": [
+    ".venv/Scripts/python.exe",
+    "-B",
+    "tools/reproduce.py",
+    "addendum",
+    "--name",
+    "attribution_replay_01"
+  ],
+  "raw_archive_opened": false,
+  "new_training": false,
+  "formal_test": false
+}

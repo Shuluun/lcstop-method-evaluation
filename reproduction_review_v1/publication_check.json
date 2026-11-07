@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "scope": "new reproduction additions and two intentionally updated documents; no historical scientific recalculation beyond reported replay",
+  "reviewed_files": 66,
+  "reviewed_bytes": 2647803,
+  "python_helpers_ast_compiled": [
+    "reproduction_review_v1/check_review_publication.py",
+    "reproduction_review_v1/compare_replay.py",
+    "reproduction_review_v1/prepare_review.py",
+    "reproduction_review_v1/run_phase.py",
+    "reproduction_review_v1/write_reports.py"
+  ],
+  "credential_and_personal_path_findings": [],
+  "broken_relative_links": [],
+  "files_over_100_mib": [],
+  "original_source_files_compared": 145,
+  "original_source_files_changed": [],
+  "intentionally_updated_historical_documents": [
+    "README.md",
+    "docs/REPRODUCIBILITY.md"
+  ],
+  "historical_code_cache_results_unchanged": true,
+  "figures_visually_checked": [
+    "figures/risk_cost.png",
+    "figures/failure_case.png",
+    "replayed_addendum/comparison.png"
+  ],
+  "raw_archive_opened": false,
+  "formal_test_started": false,
+  "new_training": 0,
+  "github_visibility_required": "PRIVATE"
+}

@@ -1,5 +1,10 @@
 # Reproduction levels and actual verification status
 
+## 2026-11-06 actual clean-environment replay
+
+A fresh private clone and a new venv without system-site-packages successfully executed both published small-cache wrapper commands. All 30 pilot scientific outputs matched exactly after the predeclared timing exclusions; four attribution data artifacts were byte-identical. See [review report](../reproduction_review_v1/README.md), [comparison](../reproduction_review_v1/comparison.json) and [resolved environment](../reproduction_review_v1/requirements-resolved.txt). Raw-archive reconstruction remains unrun. The original publication-time verification status below is retained as history.
+
+
 Run from the repository root with Python3.12 and requirements-replay.txt installed in a fresh environment.
 The historical full dependency record remains requirements.txt; pypdf was for paper preparation and is not needed for analysis replay.
 

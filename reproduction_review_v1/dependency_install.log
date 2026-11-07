@@ -1,0 +1,63 @@
+uv.exe : Resolved 13 packages in 732ms
+
+所在位置 行:11 字符: 1
+
++ & <local-tool-path> pip install --python "$root\.venv\ ...
+
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    + CategoryInfo          : NotSpecified: (Resolved 13 packages in 732ms:String) [], RemoteException
+
+    + FullyQualifiedErrorId : NativeCommandError
+
+
+
+Downloading pillow (6.9MiB)
+
+Downloading matplotlib (8.9MiB)
+
+Downloading scipy (35.0MiB)
+
+Downloading numpy (12.2MiB)
+
+Downloading fonttools (2.4MiB)
+
+ Downloaded fonttools
+
+ Downloaded pillow
+
+ Downloaded matplotlib
+
+ Downloaded numpy
+
+ Downloaded scipy
+
+Prepared 13 packages in 13.78s
+
+Installed 13 packages in 4.85s
+
+ + contourpy==1.4.0
+
+ + cycler==0.12.1
+
+ + fonttools==4.68.0
+
+ + ijson==3.6.0
+
+ + kiwisolver==1.5.1
+
+ + matplotlib==3.11.2
+
+ + numpy==2.3.5
+
+ + packaging==26.3
+
+ + pillow==13.0.0
+
+ + pyparsing==3.3.3
+
+ + python-dateutil==4.0.0
+
+ + scipy==1.18.1
+
+ + tzdata==2026.6
