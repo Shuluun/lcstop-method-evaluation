@@ -1,0 +1,54 @@
+{
+  "initial_attempt": {
+    "stage": "anonymous HTML homepage",
+    "http_status": 504,
+    "result": "gateway timeout; retried without changing repository content"
+  },
+  "status": "PASS",
+  "verification_date": "2026-11-08",
+  "url": "https://github.com/Shuluun/lcstop-method-evaluation",
+  "visibility": "PUBLIC",
+  "verified_content_commit": "3b6ed60cbaaa4ad1e7a7a3b714b3cf73b3ef56e3",
+  "remote_content_commit": "3b6ed60cbaaa4ad1e7a7a3b714b3cf73b3ef56e3",
+  "default_branch": "main",
+  "unauthenticated_api_status": 200,
+  "unauthenticated_homepage_status": 200,
+  "homepage_check_failure": null,
+  "prior_homepage_http_statuses": [
+    504,
+    504
+  ],
+  "html_web_tool_result": "cache miss",
+  "public_api_and_raw_confirmed": true,
+  "authorization_header_used": false,
+  "anonymous_file_checks": [
+    {
+      "path": "README.md",
+      "anonymous_http_status": 200,
+      "matches_local_bytes": true
+    },
+    {
+      "path": "README.en.md",
+      "anonymous_http_status": 200,
+      "matches_local_bytes": true
+    },
+    {
+      "path": "policies.py",
+      "anonymous_http_status": 200,
+      "matches_local_bytes": true
+    },
+    {
+      "path": "analysis_addendum_v1/addendum.md",
+      "anonymous_http_status": 200,
+      "matches_local_bytes": true
+    },
+    {
+      "path": "reproduction_review_v1/README.md",
+      "anonymous_http_status": 200,
+      "matches_local_bytes": true
+    }
+  ],
+  "no_scientific_recalculation": true,
+  "repository_wide_open_source_license_added": false,
+  "note": "Verifies the public content commit before this receipt itself is committed. Later receipt-only commit may have a different HEAD."
+}
