@@ -1,0 +1,15 @@
+{
+  "review_date": "2026-11-08",
+  "repository": "Shuluun/lcstop-method-evaluation",
+  "visibility_before": "PRIVATE",
+  "head_before": "4931cf3f90b16a8bfb6972d911a73a2f5acbf7d5",
+  "branches": [
+    "main"
+  ],
+  "actions_runs": 0,
+  "releases": 0,
+  "webhooks": 0,
+  "owner_authorized_public": true,
+  "no_collaborators_added": true,
+  "no_workflows_or_billing_enabled": true
+}

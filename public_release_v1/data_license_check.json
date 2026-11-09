@@ -1,0 +1,25 @@
+{
+  "review_date": "2026-11-08",
+  "scope": "versioned license metadata only; no learning-curve data",
+  "url": "https://api.figshare.com/v2/articles/12408707/versions/1",
+  "web_tool_attempt": "unavailable; direct HTTPS metadata request follows",
+  "status": "PASS",
+  "response_sha256": "6fbcf01bd97ac82adb528327404591230df4389f567f13aa8853ea0d01cba78f",
+  "response_bytes": 2595,
+  "article_id": 12408707,
+  "doi": "10.6084/m9.figshare.12408707.v1",
+  "version": 1,
+  "license": {
+    "value": 7,
+    "name": "Apache 2.0",
+    "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
+  },
+  "files": [
+    {
+      "id": 22859435,
+      "name": "bench_full.zip",
+      "size": 1813896086,
+      "download_url": "https://ndownloader.figshare.com/files/22859435"
+    }
+  ]
+}

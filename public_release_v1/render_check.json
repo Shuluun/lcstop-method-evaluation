@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "scope": "GitHub GFM rendering, structural checks; not visual screenshot or scientific validation",
+  "readmes": [
+    {
+      "file": "README.md",
+      "github_gfm_render": "PASS",
+      "table_count": 3,
+      "image_count": 2,
+      "h1_count": 1,
+      "html_bytes": 11533
+    },
+    {
+      "file": "README.en.md",
+      "github_gfm_render": "PASS",
+      "table_count": 3,
+      "image_count": 2,
+      "h1_count": 1,
+      "html_bytes": 14996
+    }
+  ]
+}

@@ -1,15 +1,21 @@
 # LCStop: learning-curve stopping method evaluation
 
-> **2026-11-06复现更新：** 从本私有仓库新克隆，在不继承系统包的新环境中安装固定依赖成功。
+中文 | [English](README.en.md)
+
+> **公开版本说明（2026-11-08）：** 本仓库作为可复现的方法评估与归因案例公开。
+> [公开前检查](public_release_v1/README.md) · [许可范围](LICENSE_SCOPE.md)。
+> 科学状态继续为开发研究完成、停止当前新算法主张；历史报告中的PRIVATE表述记录的是当时状态。
+
+> **2026-11-06复现更新：** 从当时的私有仓库新克隆，在不继承系统包的新环境中安装固定依赖成功。
 > 小缓存主流程30次回放的科学输出精确一致，归因四数据文件逐字节一致。
 > [复现报告](reproduction_review_v1/README.md) · [方法评估案例](reproduction_review_v1/method_evaluation_note.md)。
-> 官方大归档重建及正式外部验证仍未完成。仓库保持PRIVATE。
+> 官方大归档重建及正式外部验证仍未完成。
 
 
 学习曲线前缀早停的可运行复现与方法评估。问题是：能否节省记录训练成本，同时保留固定候选池中的至少一个近优配置？
 
 **状态：已完成开发演示与限定归因补充；停止当前新算法主张，未进入正式测试。**
-这是私人研究归档，不声称新算法、已发表论文、正式外部验证或普遍优越性。数据与方法结论来自已固定的开发记录；首次发布未重跑策略，2026-11-06已完成同样本、同规则的确定性复现。没有新训练或正式评价。
+这是公开的个人研究作品，不声称新算法、已发表论文、正式外部验证或普遍优越性。数据与方法结论来自已固定的开发记录；首次发布未重跑策略，2026-11-06已完成同样本、同规则的确定性复现。没有新训练或正式评价。
 
 ## 先读什么
 
@@ -81,7 +87,7 @@ SureStop后续96个只在kr-vs-kp改善最终选择遗憾。
 ## 安装与复现
 
 建议Python3.12；历史精确环境见[environment.json](sources/environment.json)。
-2026-11-06已在独立venv从官方PyPI安装固定依赖，并成功运行下列两个小缓存入口。这是同主机复现，不代表跨平台已验证。
+2026-11-06已在独立venv从官方PyPI安装固定依赖，并成功运行下列两个小缓存入口。实际安装使用uv；下方常规pip安装命令未单独重测。这是同主机复现，不代表跨平台已验证。
 新建自己的环境，不使用或修改原研究环境。
 
 ~~~powershell
@@ -102,7 +108,7 @@ python -m venv .venv
 - [官方LCBench](https://github.com/automl/LCBench)，Zimmer, Lucas (2020), data_2k_3seed, [DOI v1](https://doi.org/10.6084/m9.figshare.12408707.v1)。
 - 六任务小缓存是上述Apache-2.0数据的选择、单位变换派生物；保留其[许可证全文](licenses/LCBench-Apache-2.0.txt)与[变换记录](sources/unit_correction.json)。
 - 仅随附运行所需的[SureStop core.py](sources/repos/ACNoonan/surestop/src/surestop/core.py)，原样字节固定，MIT版权及[许可](sources/repos/ACNoonan/surestop/LICENSE)保留。其他近邻只保留已读范围、来源URL和历史字节指纹，不附整个外部仓库或论文。
-- 本人代码未选择统一开源许可；本仓库保持私有，未添加覆盖全仓库的MIT等许可。第三方许可证各自有效。
+- 原始LCStop代码和文字尚未选择统一开源许可；本次公开不添加覆盖全仓库的MIT等许可。第三方许可证各自有效，详见[许可范围](LICENSE_SCOPE.md)和[第三方声明](THIRD_PARTY_NOTICES.md)。
 
 ## 分工与结论边界
 
